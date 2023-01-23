@@ -1,4 +1,4 @@
-# argocd-cli
+# ArgoCD CLI
 Github Action to install ArgoCD CLI
 
 ## Usage
