@@ -2,8 +2,8 @@ name: ArgoCD CLI
 description: Github Action to install ArgoCD CLI
 author: Coding Protocols <support@codingprotocols.com>
 branding:
-  icon: terminal
-  color: blue
+  icon: 'terminal'
+  color: 'gray-dark'
 inputs:
   version:
     description: Version of the ArgoCD CLI to use
