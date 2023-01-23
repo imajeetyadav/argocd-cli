@@ -3,10 +3,13 @@ Github Action to install ArgoCD CLI
 
 ## Usage
 To use this action, add the following step to your GitHub Action workflow:
+
+### Select desired version from https://github.com/argoproj/argo-cd/releases
+
 ```yaml
 - uses: codingprotocols/argocd-cli@v1
   with:
-    version: v2.5.7 # Select desired TAG from https://github.com/argoproj/argo-cd/releases
+    version: v2.5.7 # optional 
 - run: argocd version
 ```
 
