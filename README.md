@@ -8,7 +8,7 @@ To use this action, add the following step to your GitHub Action workflow:
 
 ```yaml
 - name: Setup ArgoCD CLI 
-  uses: codingprotocols/argocd-cli@v1
+  uses: imajeetyadav/argocd-cli@v1
   with:
     version: v2.5.7 # optional 
 ```
