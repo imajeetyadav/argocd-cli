@@ -1,6 +1,6 @@
 name: ArgoCD CLI
 description: Github Action to install ArgoCD CLI
-author: Coding Protocols <support@codingprotocols.com>
+author: Ajeet Yadav <ajeetyadav164@gmail.com>
 branding:
   icon: 'terminal'
   color: 'gray-dark'
