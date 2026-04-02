@@ -1,6 +1,6 @@
 name: ArgoCD CLI
 description: GitHub Action to install the ArgoCD CLI with multi-arch support
-author: Ajeet Yadav <ajeetyadav164@gmail.com>
+author: Ajeet Yadav <ajeet@codingprotocols.com>
 branding:
   icon: 'terminal'
   color: 'blue'
