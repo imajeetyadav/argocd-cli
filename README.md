@@ -12,7 +12,7 @@ Add the following step to your GitHub Action workflow:
 
 ```yaml
 - name: Setup ArgoCD CLI 
-  uses: imajeetyadav/argocd-cli@v1
+  uses: imajeetyadav/argocd-cli@v2
   with:
     version: v2.10.4 # optional, default is 'latest'
 ```
