@@ -2,13 +2,12 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The latest version of this GitHub Action is supported with security updates. We recommend always pinning to the latest major version.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you find a security vulnerability, please do not open a public issue. Instead, report it privately to the maintainers:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- **Email**: [ajeet@codingprotocols.com](mailto:ajeet@codingprotocols.com)
+
+We will respond within 48 hours to acknowledge your report and discuss the disclosure timeline.

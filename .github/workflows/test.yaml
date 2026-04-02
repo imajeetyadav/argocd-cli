@@ -1,0 +1,36 @@
+name: Test Installation
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Install ArgoCD CLI (latest)
+        uses: ./
+        with:
+          version: latest
+      
+      - name: Verify Version
+        run: argocd version --client --short
+
+  test-macos:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Install ArgoCD CLI (specific version)
+        uses: ./
+        with:
+          version: v2.10.4
+      
+      - name: Verify Version
+        run: argocd version --client --short
